@@ -31,6 +31,7 @@ public class Win {
         }
         return rsl;
     }
+
     public static boolean check(int[][] board) {
         boolean result = false;
         int[] str = extractDiagonal(board);
@@ -40,5 +41,6 @@ public class Win {
                 break;
             }
         }
-        return result;    }
+        return result;
+    }
 }
